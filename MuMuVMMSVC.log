@@ -1,0 +1,48 @@
+00:00:00.005886 main     VirtualBox COM Server 6.1.36_OSE r152435 win.amd64 (Oct 10 2025 09:45:40) release log
+00:00:00.005891 main     Log opened 2025-11-08T04:57:26.969020300Z
+00:00:00.005891 main     Build Type: release
+00:00:00.005900 main     OS Product: Windows 11
+00:00:00.005900 main     OS Release: 10.0.26100
+00:00:00.005901 main     OS Service Pack: 
+00:00:00.037868 main     DMI Product Name: 83EU
+00:00:00.056385 main     DMI Product Version: LOQ 15IRH8
+00:00:00.056394 main     Firmware type: UEFI
+00:00:00.058413 main     Secure Boot: Disabled
+00:00:00.058427 main     Host RAM: 7916MB (7.7GB) total, 525MB available
+00:00:00.058437 main     Executable: C:\Program Files\MuMuVMMVbox\Hypervisor\MuMuVMMSVC.exe
+00:00:00.058438 main     Process ID: 17676
+00:00:00.058439 main     Package type: WINDOWS_64BITS_GENERIC (OSE)
+00:00:00.206666          VirtualBox: object creation starts
+00:00:00.207221          Home directory: 'C:\Users\Caio\.MUMUVMM'
+00:00:00.210967          Installed Drivers:
+00:00:00.252451          Loading settings file "C:\Users\Caio\.MUMUVMM\VirtualBox.xml" with version "1.12-windows"
+00:00:00.409095          netIfGetBoundAdapters: could not find either 'oracle_MuMuVMMNetLwf' or 'sun_MuMuVMMNetFlt' components (0x1)
+00:00:00.416531          HostDnsMonitor: initializing
+00:00:00.438405          HostDnsMonitor: updating information
+00:00:00.438495          HostDnsMonitor: old information
+00:00:00.438504            no server entries
+00:00:00.438513            no domain set
+00:00:00.438519            no search string entries
+00:00:00.438526          HostDnsMonitor: new information
+00:00:00.438532            server 1: 172.16.222.22
+00:00:00.438539            server 2: 8.8.8.8
+00:00:00.438545            no domain set
+00:00:00.438551            no search string entries
+00:00:00.443090          VD: VDInit finished with VINF_SUCCESS
+00:00:00.443892          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={a6c1b401-b9ae-492e-bb52-62696149abdd} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.444681          VirtualBox: object created
+00:00:00.514978          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5609feee-622e-42a3-a875-11308fd857b0} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'MuMuPlayerGlobal-12.0-0'}, preserve=false aResultDetail=0
+00:00:00.627740          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5609feee-622e-42a3-a875-11308fd857b0} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'MuMuPlayerGlobal-12.0-0'}, preserve=false aResultDetail=0
+00:00:00.687273          Loading settings file "C:\Program Files\Netease\MuMuPlayer\vms\MuMuPlayerGlobal-12.0-0\MuMuPlayerGlobal-12.0-0.nemu" with version "1.18-windows"
+00:00:00.691437          Saving settings file "C:\Users\Caio\.MUMUVMM\VirtualBox.xml" with version "1.12-windows"
+00:00:00.746433          Launched VM: 49166064 pid: 20132 (0x4ea4) frontend: headless name: MuMuPlayerGlobal-12.0-0
+00:00:00.945817          init_global_backup_image_desc vdiOpenImage C:\Program Files\Netease\MuMuPlayer\vms\MuMuPlayerGlobal-12.0-0\header_info.bin success, GlobalBackupImageDesc: 0x2f0c990
+00:00:00.946119          uninit_global_backup_image_desc
+00:00:00.978136          ERROR [COM]: aRC=E_NOTIMPL (0x80004001) aIID={82c607f2-69c9-49b8-a831-67ef7769159a} aComponent={SessionMachine} aText={Method Machine::getUSBControllers is not implemented}, preserve=false aResultDetail=0
+00:00:02.786422          ERROR [COM]: aRC=VBOX_E_INVALID_OBJECT_STATE (0x80bb0007) aIID={82c607f2-69c9-49b8-a831-67ef7769159a} aComponent={MachineWrap} aText={The given session is busy}, preserve=false aResultDetail=0
+00:00:02.813225          netIfGetBoundAdapters: could not find either 'oracle_MuMuVMMNetLwf' or 'sun_MuMuVMMNetFlt' components (0x1)
+00:00:08.619554          Saving settings file "C:\Program Files\Netease\MuMuPlayer\vms\MuMuPlayerGlobal-12.0-0\MuMuPlayerGlobal-12.0-0.nemu" with version "1.18-windows"
+00:00:16.443279          Saving settings file "C:\Program Files\Netease\MuMuPlayer\vms\MuMuPlayerGlobal-12.0-0\MuMuPlayerGlobal-12.0-0.nemu" with version "1.18-windows"
+00:00:17.821242          Saving settings file "C:\Program Files\Netease\MuMuPlayer\vms\MuMuPlayerGlobal-12.0-0\MuMuPlayerGlobal-12.0-0.nemu" with version "1.18-windows"
+00:00:27.525898          Saving settings file "C:\Program Files\Netease\MuMuPlayer\vms\MuMuPlayerGlobal-12.0-0\MuMuPlayerGlobal-12.0-0.nemu" with version "1.18-windows"
+00:00:27.854225          Saving settings file "C:\Users\Caio\.MUMUVMM\VirtualBox.xml" with version "1.12-windows"
